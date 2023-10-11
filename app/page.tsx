@@ -101,7 +101,7 @@ export default function Home() {
             <h2 className='text-black text-xl font-bold'>
               OOPS, no result
             </h2>
-            <p>{allCars?.message}</p>
+            {/* <p>{allCars?.message}</p> */}
           </div>
         )}
 

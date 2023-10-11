@@ -5,7 +5,7 @@ import { SearchManufacturerProps } from '@/types'
 import Image from 'next/image';
 import { Fragment, useState } from 'react';
 
-const SearchManufacturer = ({selected, setSelected}) => {
+const SearchManufacturer = ({selected, setSelected}:SearchManufacturerProps) => {
     const [query, setQuery] = useState('');
 
     const filteredManufacturers = query === "" 
